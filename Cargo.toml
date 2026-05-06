@@ -1,0 +1,12 @@
+[package]
+name = "zed_angcyo"
+version = "0.1.0"
+edition = "2024"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+# https://crates.io/crates/zed_extension_api
+# https://docs.rs/zed_extension_api/0.7.0/zed_extension_api/
+zed_extension_api = "0.7.0"
